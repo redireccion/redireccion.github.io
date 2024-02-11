@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^vanaal\.us$ [NC]
+RewriteRule ^(.*)$ https://thevanaal.com/$1 [L,R=301]
